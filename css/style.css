@@ -1,4 +1,6 @@
+@charset "UTF-8";
 /* Variables Couleurs */
+/* Général */
 *, ::before, ::after {
   margin: 0;
   padding: 0;
@@ -11,15 +13,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
+/* Bg top */
 .topPage {
   background-image: url(../img/bg.jpg);
   width: 100%;
@@ -32,6 +26,15 @@ header {
 .mainContainer {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
